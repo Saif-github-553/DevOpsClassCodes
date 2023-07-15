@@ -1,5 +1,8 @@
 pipeline{
 	agent any
+	tools{
+		maven "saif-maven"
+	}
       stages{
            stage('Checkout'){
 	    
