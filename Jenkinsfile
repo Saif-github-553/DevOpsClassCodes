@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	tools{
-		maven "saif-maven"
+		maven "assign-maven"
 	}
       stages{
            stage('Checkout'){
